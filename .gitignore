@@ -1,0 +1,18 @@
+# Python Environment
+.venv/
+__pycache__/
+*.pyc
+
+# Massive Model Weights
+checkpoint-*/
+runs/
+*.safetensors
+*.bin
+*.pt
+*.h5
+
+# Massive Datasets (If your CSV is over 50MB)
+# your_synthetic_dataset.csv 
+
+# OS Files
+.DS_Store
